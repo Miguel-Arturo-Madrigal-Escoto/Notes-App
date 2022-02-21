@@ -1,0 +1,30 @@
+.body {
+    height: 100%;
+    margin: 0px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100vh;
+}
+
+.dark-mode .container {
+    background-color: $dark-mode;
+}
+
+.dark-mode h1 {
+    color: #F4F6F0;
+}
+
+.dark-mode .btn-moon * { 
+    color: $icon-sun;
+}
+
+.dark-mode .btn-moon,  .dark-mode .btn-sun { 
+    background-color: $black;
+}
+
+.dark-mode .btn-sun * {
+    color: #F4F6F0;
+}
